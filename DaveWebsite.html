@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave Website</title>
+    <link href="images/OdetteSt2.ico" rel="shortcut icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="scroll.css" rel="stylesheet" type="text/css">
+    <link href="chat.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg bg-white py-3 sticky-top">
+  <div class="container-fluid px-5">
+    <a class="navbar-brand" href="DaveWebsite.html">
+        <img src="images/daveprofile2.png" alt="Logo Dave Website" height="80">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+          <ul class="dropdown-menu">
+            <li>
+                <a class="dropdown-item" href="DaveWebsite.html">Home</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="DaveHome2.html">Home Two</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Show Tickets</a>
+          <ul class="dropdown-menu">
+            <li>
+                <a class="dropdown-item" href="OurShow.html">Our Show</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Performance</a>
+          <ul class="dropdown-menu">
+            <li>
+                <a class="dropdown-item" href="PopularPerformance.html">Popular Performance</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="PerformanceDetails.html">Performance Details</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Blog.html">Blog Grid</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="sliderUtama" class="carousel slide" data-bs-ride="carousel"><!--bagian slider-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#sliderUtama" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#sliderUtama" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#sliderUtama" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <img src="images/Odette1.jpeg" class="d-block w-100" alt="Slide 1">
+                <div class="position-absolute top-0 bottom-0 start-0 end-0 bg-black bg-opacity-25"></div>
+                <div class="carousel-caption d-none d-md-flex flex-column justify-content-center align-item center top-0 bottom-0">
+                    <h2 class="display-3 slide-from-bottom" style="font-family: Arial Georgia, 'Times New Roman', Times, serif;">Odette Spessiva</h2>
+                    <p class="fs-4 slide-from-bottom delay-1">Prima Balerina dari Teater Korolevskiy.</p>
+                    <a href="DaveWebsite.html" type="button" class="btn btn-outline-light align-self-center slide-from-bottom delay-2">Discover More</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/Odette12.jpeg" class="d-block w-100" alt="Slide 2">
+                <div class="position-absolute top-0 bottom-0 start-0 end-0 bg-black bg-opacity-25"></div>
+                <div class="carousel-caption d-none d-md-flex flex-column justify-content-center align-item center top-0 bottom-0">
+                    <h2 class="display-3" style="font-family: Arial Georgia, 'Times New Roman', Times, serif;">Odette Spessiva</h2>
+                    <p class="fs-4">Sosok Penari yang Dingin nan Anggun.</p>
+                    <a href="DaveWebsite.html" type="button" class="btn btn-outline-light align-self-center">Discover More</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="images/Odette14.jpeg" class="d-block w-100" alt="Slide 3">
+                <div class="position-absolute top-0 bottom-0 start-0 end-0 bg-black bg-opacity-25"></div>
+                <div class="carousel-caption d-none d-md-flex flex-column justify-content-center align-item center top-0 bottom-0">
+                    <h2 class="display-3" style="font-family: Arial Georgia, 'Times New Roman', Times, serif;">Odette Spessiva</h2>
+                    <p class="fs-4">"Terima kasih atas dukungannya. Sampai Jumpa."</p>
+                    <a href="DaveWebsite.html" type="button" class="btn btn-outline-light align-self-center">Discover More</a>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#sliderUtama" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#sliderUtama" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="search-section slide-from-right"><!--bagian form-->
+      <div class="container">
+        <div class="card border-0 shadow rounded-3 p-4 p-lg-5">
+            <form class="row g-4 align-items-end">
+                <div class="col-md-6 col-lg-3">
+                    <label for="pickup" class="form-label text-secondary">Performance Date:</label>
+                    <input type="date" id="pickup" class="form-control bg-light border-0 py-3">
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label for="make" class="form-label text-secondary">Select Cast:</label>
+                    <select id="pickup" class="form-select py-3">
+                        <option selected>All Actor/Actress</option>
+                        <option>Odette Spessiva</option>
+                        <option>Vodyanitsa</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label for="make" class="form-label text-secondary">Select Performance</label>
+                    <select id="pickup" class="form-select py-3">
+                        <option selected>All Performances</option>
+                        <option>Show</option>
+                        <option>Limited Show</option>
+                        <option>Fan Meeting</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <button type="submit" class="btn btn-about w-100 py-3">Search</button>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="about-section py-5 my-5"><!--bagian abotu us-->
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <!--bagian foto-->
+            <div class="col-lg-6">
+                <div class="about-img-wrap slide-from-left">
+                    <img src="images/Odette17.jpeg" class="img-fluid rounded w-100" alt="About Us">
+                </div>
+            </div>
+            <!--bagian text-->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="line-dash"></span>
+                    <span class="line-solid"></span>
+                    <span class="font-script about-label">About Us</span>
+                    <span class="line-solid"></span>
+                    <span class="line-dash"></span>
+                </div>
+                <h2 class="about-title fw-bold display-5 mb-3">
+                    Welcome to Korolevskiy Theater, the best Sneznhaya's Star
+                </h2>
+                <p class="text-secondary mb-4">
+                    The Korolevskiy Theater is renowned throughout Snezhnaya. 
+                    Dancers offer dreamlike performances upon the stage, while beyond the curtain lies another world all its own.
+                </p>
+                <div class="d-flex align-items-center gap-3 mb-2">
+                    <span class="arrow-circle">&#x2794;</span>
+                    <h5 class="about-title fw-bold mb-0">Exciting Show</h5>
+                </div>
+                <p class="text-secondary mb-4">
+                    Odette Spessiva, prima ballerina of the Korolevskiy Troupe, 
+                    appears on promotional posters wearing the same composed expression
+                </p>
+                <div class="d-flex align-items-center gap-3 mb-2">
+                    <span class="arrow-circle">&#x2794;</span>
+                    <h5 class="about-title fw-bold mb-0">Legendary Star</h5>
+                </div>
+                <p class="text-secondary mb-4">
+                    Her gaze is calm and distant, her lips lightly pressed together, her face as still as a statue touched by frost.
+                </p>
+                <a href="DaveWebsite.html" class="btn btn-about btn-lg">View More &rarr;</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="welcome-section d-flex align-items-center py-5"><!--bagian foto+welkam-->
+    <div class="container-fluid px-lg-5">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
+                <div class="welcome-box text-white text-center p-4 p-md-5 slide-from-right">
+                    <h2 class="fw-bold display-5 mb-4">Welcome!</h2>
+                    <p class="welcome-text mb-5">
+                        We present professionally performed, elegant ballet shows at Korolevskiy
+                        Theater, from classic stories to the legendary Odette Spessiva!
+                    </p>
+                    <a href="OurShow.html" class="btn btn-about btn-lg px-4">View Special Offers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="py-5 my-5"><!--bagina show cards-->
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Popular Shows</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Our Featured Performances</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4 slide-from-bottom">
+                <div class="card show-card shadow-sm h-100">
+                    <div class="show-img-wrap">
+                    <img src="images/Odette27.jpeg" class="card-img-top" alt="Swan Lake Gala">
+                    </div>
+                    <div class="card-body p-4">
+                        <h5 class="card-title about-title fw-bold fs-4 mb-2">Swan Lake Gala</h5>
+                        <div class="mb-3">
+                            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <small class="text-secondary ms-1">(5.00 Rating)</small>
+                        </div>
+                        <hr class="text-secondary">
+                        <div class="d-flex justify-content-between align-items-end gap-2">
+                            <div>
+                                <div class="fw-semibold small">From</div>
+                                <div class="show-price">$5 - $25</div>
+                            </div>
+                            <a href="PerformanceDetails.html" class="btn btn-book d-inline-flex align-items-center gap-2">Book Now &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 slide-from-bottom">
+                <div class="card show-card shadow-sm h-100">
+                    <div class="show-img-wrap">
+                    <img src="images/Odette2.jpeg" class="card-img-top" alt="Musical Drama">
+                    </div>
+                    <div class="card-body p-4">
+                        <h5 class="card-title about-title fw-bold fs-4 mb-2">Musical Drama</h5>
+                        <div class="mb-3">
+                            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <small class="text-secondary ms-1">(5.00 Rating)</small>
+                        </div>
+                        <hr class="text-secondary">
+                        <div class="d-flex justify-content-between align-items-end gap-2">
+                            <div>
+                                <div class="fw-semibold small">From</div>
+                                <div class="show-price">$5 - $25</div>
+                            </div>
+                            <a href="PerformanceDetails.html" class="btn btn-book d-inline-flex align-items-center gap-2">Book Now &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 slide-from-bottom">
+                <div class="card show-card shadow-sm h-100">
+                    <div class="show-img-wrap">
+                    <img src="images/Odette25.jpeg" class="card-img-top" alt="Odette's Fan Meeting">
+                    </div>
+                    <div class="card-body p-4">
+                        <h5 class="card-title about-title fw-bold fs-4 mb-2">Odette's Fan Meeting</h5>
+                        <div class="mb-3">
+                            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <small class="text-secondary ms-1">(5.00 Rating)</small>
+                        </div>
+                        <hr class="text-secondary">
+                        <div class="d-flex justify-content-between align-items-end gap-2">
+                            <div>
+                                <div class="fw-semibold small">From</div>
+                                <div class="show-price">$5 - $25</div>
+                            </div>
+                            <a href="PerformanceDetails.html" class="btn btn-book d-inline-flex align-items-center gap-2">Book Now &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5 pt-3">
+            <a href="OurShow.html" class="btn btn-outline-about px-5 py-2">View All Shows</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="offer-section d-flex align-items-center py-5"><!--bagian what we offer-->
+    <div class="container-fluid px-lg-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 text-center">
+                <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                    <span class="line-dash"></span>
+                    <span class="line-solid"></span>
+                    <span class="font-script about-label">Explore</span>
+                    <span class="line-solid"></span>
+                    <span class="line-dash"></span>
+                </div>
+                <h2 class="about-title text-white fw-bold display-5 mb-5">What We Offer</h2>
+
+                <div class="row row-cols-3 g-3 justify-content-center mb-5">
+                    <div class="col slide-from-bottom ">
+                        <div class="offer-circle">
+                            <img src="images/OdetteSt2.png">
+                        </div>
+                        <h5 class="about-title text-white fw-bold fs-4 mt-3">Show Tickets</h5>
+                    </div>
+                    <div class="col slide-from-bottom delay-1">
+                        <div class="offer-circle">
+                            <img src="images/OdetteSt1.png">
+                        </div>
+                        <h5 class="about-title text-white fw-bold fs-4 mt-3">Performances</h5>
+                    </div>
+                    <div class="col slide-from-bottom delay-2">
+                        <div class="offer-circle">
+                            <img src="images/OdetteSt3.png">
+                        </div>
+                        <h5 class="about-title text-white fw-bold fs-4 mt-3">Management</h5>
+                    </div>
+                </div>
+
+                <a href="OurShow.html" class="btn btn-about btn-lg px-4">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="py-5"><!--bagian place2go-->
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Places To Go</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Our Stages &amp; Venues</h2>
+        </div>
+
+        <div class="row g-3">
+            <!--kiri-->
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-12">
+                    <div class="dest-card dest-tall rounded slide-from-left">
+                        <img src="images/Odette1.jpeg" class="w-100 h-100 object-fit-cover" alt="Grand Theater">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Grand Theater</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="dest-card dest-short rounded slide-from-left">
+                        <img src="images/Odette30.jpeg" class="w-100 h-100 object-fit-cover" alt="Studio Hall">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Studio Hall</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="dest-card dest-short rounded slide-from-bottom">
+                        <img src="images/Odette14.jpeg" class="w-100 h-100 object-fit-cover" alt="Garden Stage">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Garden Stage</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--tengah-->
+            <div class="col-6 col-lg-3">
+                <div class="row g-3">
+                    <div class="col-12">
+                    <div class="dest-card dest-tall rounded slide-from-bottom">
+                        <img src="images/Odette2.jpeg" class="w-100 h-100 object-fit-cover" alt="Royal Hall">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Royal Hall</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <div class="dest-card dest-short rounded slide-from-bottom delay-1">
+                        <img src="images/Odette23.jpeg" class="w-100 h-100 object-fit-cover" alt="Opera House">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Opera House</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--kanan-->
+            <div class="col-6 col-lg-3">
+                <div class="row g-3">
+                    <div class="col-12">
+                    <div class="dest-card dest-short rounded slide-from-right">
+                        <img src="images/Odette29.jpeg" class="w-100 h-100 object-fit-cover" alt="Open Air Stage">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Open Air Stage</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <div class="dest-card dest-tall rounded slide-from-right delay-1">
+                        <img src="images/Odette9.jpeg" class="w-100 h-100 object-fit-cover" alt="Main Stage">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Main Stage</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5 pt-3">
+            <a href="OurShow.html" class="btn btn-outline-about px-5 py-2">All Venues</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="video-section d-flex align-items-center justify-content-center"><!--bagian video sama statistik-->
+    <div class="play-wrap slide-from-bottom">
+        <a href="#popup" class="play-btn about-title">Play</a>
+    </div>
+</div>
+<div class="stats-section py-5"><!--yang ini statistik-->
+    <div class="container">
+        <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+            <div class="col stat-item slide-from-bottom ">
+                <div class="stat-number text-white fw-bolder">915K +</div>
+                <div class="text-white small">Views</div>
+            </div>
+            <div class="col stat-item slide-from-bottom delay-1">
+                <div class="stat-number text-white fw-bolder">273K +</div>
+                <div class="text-white small">Likes</div>
+            </div>
+            <div class="col stat-item slide-from-bottom delay-2">
+                <div class="stat-number text-white fw-bolder">67K +</div>
+                <div class="text-white small">Comments</div>
+            </div>
+            <div class="col stat-item slide-from-bottom delay-3">
+                <div class="stat-number text-white fw-bolder">99K +</div>
+                <div class="text-white small">Shared</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="py-5"><!--bagian besik fitur-->
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Basic Features</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Our Way to Success</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col slide-from-left">
+                <div class="card feature-card h-100">
+                    <div class="card-body p-4">
+                        <div class="card-image">
+                            <img src="images/NahidaSt1.png">
+                        </div>
+                        <h5 class="about-title fw-bold fs-4 mt-3 mb-3">Ticket Guide</h5>
+                        <p class="text-secondary small lh-lg mb-0">
+                            A ballet outfit of exceptional make, inspired by the snow swans, 
+                            that has served as the diligent ballerina's faithful companion across countless long nights. 
+                            The gems that adorn it glisten with a quiet elegance beneath the stage lights, just like the shimmering dancer herself.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col slide-from-bottom">
+                <div class="card feature-card h-100">
+                    <div class="card-body p-4">
+                        <div class="card-image">
+                            <img src="images/VesnaSt1.png">
+                        </div>
+                        <h5 class="about-title fw-bold fs-4 mt-3 mb-3">Live Streaming</h5>
+                        <p class="text-secondary small lh-lg mb-0">
+                            That cold reserve only makes the fervor of her admirers more striking. Their devotion is not difficult to understand.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col slide-from-right">
+                <div class="card feature-card h-100">
+                    <div class="card-body p-4">
+                        <div class="card-image">
+                            <img src="images/LinneaSt2.png">
+                        </div>
+                        <h5 class="about-title fw-bold fs-4 mt-3 mb-3">Stage Service</h5>
+                        <p class="text-secondary small lh-lg mb-0">
+                            Odette possesses an impeccable physique, and her performances combine a cutting austerity with tremendous dramatic tension.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col slide-from-left delay-1">
+                <div class="card feature-card h-100">
+                    <div class="card-body p-4">
+                        <div class="card-image">
+                            <img src="images/ColumbinaSt3.png">
+                        </div>
+                        <h5 class="about-title fw-bold fs-4 mt-3 mb-3">Free Snacks</h5>
+                        <p class="text-secondary small lh-lg mb-0">
+                            Every step and every lift of her hand carries the precision of a finely cut gemstone, 
+                            each movement catching the light with a brilliance that holds the eye.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col slide-from-bottom delay-1">
+                <div class="card feature-card h-100">
+                    <div class="card-body p-4">
+                        <div class="card-image">
+                            <img src="images/JahodaSt1.png">
+                        </div>
+                        <h5 class="about-title fw-bold fs-4 mt-3 mb-3">Event Planning</h5>
+                        <p class="text-secondary small lh-lg mb-0">
+                            Whatever the night demands of her, Odette is back at the theatre on time the following morning
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col slide-from-right delay-1">
+                <div class="card feature-card h-100">
+                    <div class="card-body p-4">
+                        <div class="card-image">
+                            <img src="images/FurinaSt1.png">
+                        </div>
+                        <h5 class="about-title fw-bold fs-4 mt-3 mb-3">Global Audience</h5>
+                        <p class="text-secondary small lh-lg mb-0">
+                            As dawn brightens and the rest of the troupe begins to file in, they often pause at the sight of her.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="testi-section py-5"><!--bagian testi-->
+    <div class="container py-4">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Testimonials</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title text-white fw-bold display-5">The Best Days Are Spent</h2>
+        </div>
+
+        <div id="sliderTesti" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-inner slide-from-bottom">
+            <div class="carousel-item active">
+                <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                        <div class="col">
+                            <p class="testi-text text-white fs-5 mb-4">
+                                Thank you for your support. See you again.
+                            </p>
+                            <img src="images/Odette19.jpeg" class="testi-img rounded-circle object-fit-cover" alt="Rakib Roni">
+                            <h6 class="about-title text-white fw-bold mt-3 mb-0">Odette Spessiva</h6>
+                        </div>
+                        <div class="col">
+                            <p class="testi-text text-white fs-5 mb-4">
+                                Your appreciation means the world to us.
+                            </p>
+                            <img src="images/Vodyanitsa1.jpeg" class="testi-img rounded-circle object-fit-cover" alt="Lisa J. Franco">
+                            <h6 class="about-title text-white fw-bold mt-3 mb-0">Vodyanitsa</h6>
+                        </div>
+                        <div class="col">
+                            <p class="testi-text text-white fs-5 mb-4">
+                                May flowers and lovely dreams bloom by your window.
+                            </p>
+                            <img src="images/Columbina2.jpeg" class="testi-img rounded-circle object-fit-cover" alt="Mydul Islam">
+                            <h6 class="about-title text-white fw-bold mt-3 mb-0">Columbina Hyposelenia</h6>
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                        <div class="col">
+                            <p class="testi-text text-white fs-5 mb-4">
+                                Thank you for your support. See you again.
+                            </p>
+                            <img src="images/Odette19.jpeg" class="testi-img rounded-circle object-fit-cover" alt="Rakib Roni">
+                            <h6 class="about-title text-white fw-bold mt-3 mb-0">Odette Spessiva</h6>
+                        </div>
+                        <div class="col">
+                            <p class="testi-text text-white fs-5 mb-4">
+                                Your appreciation means the world to us.
+                            </p>
+                            <img src="images/Vodyanitsa1.jpeg" class="testi-img rounded-circle object-fit-cover" alt="Lisa J. Franco">
+                            <h6 class="about-title text-white fw-bold mt-3 mb-0">Vodyanitsa</h6>
+                        </div>
+                        <div class="col">
+                            <p class="testi-text text-white fs-5 mb-4">
+                                May flowers and lovely dreams bloom by your window.
+                            </p>
+                            <img src="images/Columbina2.jpeg" class="testi-img rounded-circle object-fit-cover" alt="Mydul Islam">
+                            <h6 class="about-title text-white fw-bold mt-3 mb-0">Columbina Hyposelenia</h6>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="py-5"><!--bagian team-->
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Our Team</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Meet Our Excellent Guides</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+            <div class="col">
+                <div class="card team-card border-0 slide-from-right">
+                    <div class="team-img-wrap position-relative">
+                        <img src="images/Columbina1.jpeg" class="card-img-top w-100 object-fit-cover" alt="Columbina Hyposelenia">
+                        <a href="#" class="team-share position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center" aria-label="Share Columbina Hyposelenia">
+                            <img src="images/LinneaSt1.png">
+                        </a>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="team-name fs-5 mb-1">Columbina Hyposelenia</h5>
+                        <p class="team-role small fw-semibold mb-0">Welkin Moon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card team-card border-0 slide-from-right delay-1">
+                    <div class="team-img-wrap position-relative">
+                        <img src="images/Jahoda1.png" class="card-img-top w-100 object-fit-cover" alt="Jahoda">
+                        <a href="#" class="team-share position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center" aria-label="Share Jahoda">
+                            <img src="images/LinneaSt1.png">
+                        </a>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="team-name fs-5 mb-1">Jahoda</h5>
+                        <p class="team-role small fw-semibold mb-0">Stage Staff Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card team-card border-0 slide-from-right delay-2">
+                    <div class="team-img-wrap position-relative">
+                        <img src="images/Odette15.jpeg" class="card-img-top w-100 object-fit-cover" alt="Odette Spessiva">
+                        <a href="#" class="team-share position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center" aria-label="Share Odette Spessiva">
+                            <img src="images/LinneaSt1.png">
+                        </a>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="team-name fs-5 mb-1">Odette Spessiva</h5>
+                        <p class="team-role small fw-semibold mb-0">Prima Ballerina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card team-card border-0 slide-from-right delay-3">
+                    <div class="team-img-wrap position-relative">
+                        <img src="images/Vodyanitsa2.jpeg" class="card-img-top w-100 object-fit-cover" alt="Vodyanitsa">
+                        <a href="#" class="team-share position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center" aria-label="Share Vodyanitsa">
+                            <img src="images/LinneaSt1.png">
+                        </a>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="team-name fs-5 mb-1">Vodyanitsa</h5>
+                        <p class="team-role small fw-semibold mb-0">Prima Donna</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-light py-5"><!--bagian blog news-->
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Blogs &amp; News</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Our Latest News Feed</h2>
+        </div>
+
+        <div class="row g-4">
+            <!--berita gede-->
+            <div class="col-lg-6 slide-from-bottom">
+                <a href="Blog.html" class="blog-big d-block position-relative overflow-hidden rounded h-100 text-decoration-none">
+                    <img src="images/Odette13.jpeg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Top Gorgeous Shows In The History Of Ballet">
+                    <div class="blog-big-caption position-absolute bottom-0 start-0 w-100 p-4 pt-5">
+                        <div class="text-white fw-semibold mb-2">Ballet Trip</div>
+                        <h3 class="blog-big-title about-title fw-bold mb-0">Top Gorgeous Shows In The History Of The Ballet Stage</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!--4 berita mini-->
+            <div class="col-lg-6">
+                <div class="row row-cols-1 row-cols-sm-2 g-3">
+                    <div class="col slide-from-left delay-1">
+                        <a href="Blog.html" class="card blog-card h-100 text-decoration-none">
+                            <div class="blog-img-wrap position-relative overflow-hidden">
+                                <img src="images/Linnea1.jpeg" class="card-img-top w-100 object-fit-cover" alt="Explorer theater unveils exciting itinerary for the new season">
+                                <span class="blog-tag position-absolute top-0 start-0 px-3 py-1 small fw-semibold">Dave</span>
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="blog-kategori text-uppercase mb-1">Uncategorized</div>
+                                <h6 class="blog-title about-title fw-bold mb-0">Explorer theater unveils exciting itinerary for the new season</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col slide-from-left delay-2">
+                        <a href="Blog.html" class="card blog-card h-100 text-decoration-none">
+                            <div class="blog-img-wrap position-relative overflow-hidden">
+                                <img src="images/Nahida1.jpeg" class="card-img-top w-100 object-fit-cover" alt="Enjoy the view of the stage from a private box seat">
+                                <span class="blog-tag position-absolute top-0 start-0 px-3 py-1 small fw-semibold">Dave</span>
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="blog-kategori text-uppercase mb-1">Uncategorized</div>
+                                <h6 class="blog-title about-title fw-bold mb-0">Enjoy the view of the stage from a private box seat</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col slide-from-right delay-1">
+                        <a href="Blog.html" class="card blog-card h-100 text-decoration-none">
+                            <div class="blog-img-wrap blog-green position-relative overflow-hidden">
+                                <img src="images/Odette29.jpeg" class="card-img-top w-100 object-fit-cover" alt="Royal hall announce new ticket tax for the season">
+                                <span class="blog-tag position-absolute top-0 start-0 px-3 py-1 small fw-semibold">Dave</span>
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="blog-kategori text-uppercase mb-1">Uncategorized</div>
+                                <h6 class="blog-title about-title fw-bold mb-0">Royal hall announce new ticket tax for the season</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col slide-from-right delay-2">
+                        <a href="Blog.html" class="card blog-card h-100 text-decoration-none">
+                            <div class="blog-img-wrap blog-green position-relative overflow-hidden">
+                                <img src="images/Odette28.jpeg" class="card-img-top w-100 object-fit-cover" alt="Grand show set to join the theater fleet of stages">
+                                <span class="blog-tag position-absolute top-0 start-0 px-3 py-1 small fw-semibold">Dave</span>
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="blog-kategori text-uppercase mb-1">Uncategorized</div>
+                                <h6 class="blog-title about-title fw-bold mb-0">Grand show set to join the theater fleet of stages</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="py-5 my-5"><!--bagian interested-->
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-7 slide-from-bottom">
+                <h2 class="about-title fw-bold display-5 lh-sm mb-4">Interested in Seeing Our Theater Performance?</h2>
+                <p class="text-secondary lh-lg mb-5">
+                    The Korolevskiy Theater is renowned throughout Snezhnaya. 
+                    Dancers offer dreamlike performances upon the stage, while beyond the curtain lies another world all its own.
+                </p>
+                <a href="Contact.html" class="btn btn-outline-about px-5 py-3">Contact Manager</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="footer-section text-white pt-5"><!--bagian futer-->
+    <div class="container">
+        <div class="row g-5 pb-5">
+            <div class="col-md-6 col-lg-3">
+                <a href="DaveWebsite.html">
+                    <img src="images/OdetteSt4.png" alt="Logo" height="85" class="mb-3">
+                </a>
+                <p class="text-white-50">
+                    Dave Website, dibuat untuk proyek ujian akhir semester mata kuliah Pemrograman Antarmuka Pengguna.
+                </p>
+                <div class="d-flex gap-2 mt-4">
+                    <a href="https://www.facebook.com/share/1CNj1k6yVW/" class="social-circle" aria-label="Facebook">
+                        <img src="images/facebook.svg" width="20" alt="Facebook">
+                    </a>
+                    <a href="https://pin.it/5jrilwgu8" class="social-circle" aria-label="Pinterest">
+                        <img src="images/pinterest.svg" width="20" alt="Pinterest">
+                    </a>
+                    <a href="https://www.instagram.com/dddavejoseph?bqrl=MW54N2h1cTBpM3B1bQ==" class="social-circle" aria-label="Instagram">
+                        <img src="images/instagram.svg" width="20" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-circle" aria-label="LinkedIn">
+                        <img src="images/linkedin.png" width="20" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h4 class="footer-title mb-4">Quicklinks</h4>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li>
+                        <a href="DaveWebsite.html" class="footer-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="OurShow.html" class="footer-link">Show Tickets</a>
+                    </li>
+                    <li>
+                        <a href="PopularPerformance.html" class="footer-link">Performance</a>
+                    </li>
+                    <li>
+                        <a href="#sliderUtama" class="footer-link">Pages</a>
+                    </li>
+                    <li>
+                        <a href="Blog.html" class="footer-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html" class="footer-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h4 class="footer-title mb-4">Get In Touch</h4>
+
+                <div class="d-flex gap-3 mb-3">
+                    <div class="icon-footer">
+                        <img src="images/location2.png">
+                    </div>
+                    <div>
+                        <strong>Location:</strong>
+                        <div class="text-white-50">Letjen S. Parman St No 1, Tomang, Grogol Petamburan, West Jakarta City, Jakarta</div>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-3 mb-3">
+                    <div class="icon-footer">
+                        <img src="images/email.png">
+                    </div>
+                    <div>
+                        <strong>Email:</strong>
+                        <div class="text-white-50">dave.825250150@stu.untar.ac.id</div>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-3">
+                    <div class="icon-footer">
+                        <img src="images/phone.png">
+                    </div>
+                    <div>
+                        <strong>Phone:</strong>
+                        <div class="text-white-50">+62 812 3456 7890</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3"><!--galeri-->
+                <h4 class="footer-title mb-4">Gallery</h4>
+                <div class="row g-2">
+                    <div class="col-6">
+                        <img src="images/Odette16.jfif" class="img-fluid rounded gallery-img" alt="Callery 1">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/Odette18.jpeg" class="img-fluid rounded gallery-img" alt="Callery 2">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/Odette19.jpeg" class="img-fluid rounded gallery-img" alt="Callery 3">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/Odette21.jpeg" class="img-fluid rounded gallery-img" alt="Callery 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="border-secondary opacity-50 m-0">
+            <p class="text-center py-4 mb-0">
+                Dave Website &copy;2026. All Rights Reserved.
+            </p>
+    </div>
+</footer>
+
+<div class="scrollAtasBawah"><!--tombol scroll-->
+    <button id="tombolAtas" class="tombol-scroll" title="Ke Atas">&#9650;</button>
+</div>
+
+
+    <button type="button" class="tombol-chat" title="Chat" aria-label="Buka chat" data-bs-toggle="modal" data-bs-target="#modalChat"><!--tombol chat-->
+        <img src="images/chaticon.png" width="20" height="20">
+    </button>
+    <div class="modal fade" id="modalChat" tabindex="-1" aria-labelledby="judulModalChat" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-6" id="judulModalChat">Silahkan berikan pesan disini!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formChat" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="chatNama" class="form-label small">Nama</label>
+                            <input type="text" class="form-control" id="chatNama" placeholder="Masukkan nama Anda" required>
+                            <div class="invalid-feedback">Nama wajib diisi.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="chatEmail" class="form-label small">Email</label>
+                            <input type="email" class="form-control" id="chatEmail" placeholder="nama@exampel.com" required>
+                            <div class="invalid-feedback">Masukkan email yang valid.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="chatPesan" class="form-label small">Isi Pesan</label>
+                            <textarea class="form-control" id="chatPesan" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                            <div class="invalid-feedback">Pesan wajib diisi.</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="submit" form="formChat" class="btn btn-primary">kirim pesan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3">
+        <div id="toastChat" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">Pesan Anda berhasil dikirim. Terima kasih!</div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Tutup"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup"><!--popup video-->
+        <div class="popup-box">
+            <div class="popup-header">
+                <div class="popup-title">Odette - Golden Hour - Video by sk.numb</div>
+                <a class="close-popup" href="#!">x</a>
+            </div>
+            <div class="popup-video">
+                <video controls>
+                    <source src="videos/Odette - Golden Hour - Video by sk.numb.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>

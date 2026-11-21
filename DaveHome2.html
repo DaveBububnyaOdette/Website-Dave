@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave Website</title>
+    <link href="images/OdetteSt2.ico" rel="shortcut icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="scroll.css" rel="stylesheet" type="text/css">
+    <link href="chat.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg bg-white py-3 sticky-top">
+  <div class="container-fluid px-5">
+    <a class="navbar-brand" href="DaveWebsite.html">
+        <img src="images/daveprofile2.png" alt="Logo Dave Website" height="80">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+          <ul class="dropdown-menu">
+            <li>
+                <a class="dropdown-item" href="DaveWebsite.html">Home</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="DaveHome2.html">Home Two</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Show Tickets</a>
+          <ul class="dropdown-menu">
+            <li>
+                <a class="dropdown-item" href="OurShow.html">Our Show</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Performance</a>
+          <ul class="dropdown-menu">
+            <li>
+                <a class="dropdown-item" href="PopularPerformance.html">Popular Performance</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="PerformanceDetails.html">Performance Details</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Blog.html">Blog Grid</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="sliderHome2" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000"><!--bagian slider home 2-->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#sliderHome2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#sliderHome2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+    <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/OdetteNamecard.webp" class="hero-img d-block w-100 object-fit-cover" alt="Slide 1">
+                <div class="hero-overlay position-absolute top-0 bottom-0 start-0 end-0"></div>
+                <div class="position-absolute top-0 bottom-0 start-0 end-0 d-flex align-items-center">
+                    <div class="container-fluid px-4 px-lg-5">
+                        <div class="hero-text">
+                            <h2 class="about-title text-white fw-bold display-2 mb-3 slide-from-left delay-1">A Famed Sneznhayan Ballerina</h2>
+                            <p class="text-white fs-5 mb-4 slide-from-left">Blossoms against the frozen landscape with a beauty as sharp as frost</p>
+                            <div class="d-flex align-items-center gap-4">
+                                <a href="DaveHome2.html" class="btn btn-outline-light px-4 py-2 fw-semibold slide-from-left delay-3">Discover More</a>
+                                <a href="#popup" class="hero-play slide-from-left delay-2" aria-label="Putar video">
+                                    <img src="images/LinneaSt1.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Odette12.jpeg" class="hero-img d-block w-100 object-fit-cover" alt="Slide 2">
+                <div class="hero-overlay position-absolute top-0 bottom-0 start-0 end-0"></div>
+                <div class="position-absolute top-0 bottom-0 start-0 end-0 d-flex align-items-center">
+                    <div class="container-fluid px-4 px-lg-5">
+                        <div class="hero-text">
+                            <h2 class="about-title text-white fw-bold display-2 mb-3">A Famed Sneznhayan Ballerina</h2>
+                            <p class="text-white fs-5 mb-4">Blossoms against the frozen landscape with a beauty as sharp as frost</p>
+                            <div class="d-flex align-items-center gap-4">
+                                <a href="DaveHome2.html" class="btn btn-outline-light px-4 py-2 fw-semibold">Discover More</a>
+                                <a href="#popup" class="hero-play" aria-label="Putar video">
+                                    <img src="images/LinneaSt1.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#sliderHome2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#sliderHome2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+</div>
+
+
+<div class="py-5"><!--bagian who we are n buking-->
+    <div class="container py-3">
+        <div class="row g-5 align-items-center">
+            <!--teks tentang kami-->
+            <div class="col-lg-7">
+                <div class="row g-4 align-items-center mb-4">
+                    <div class="col-sm-5">
+                        <img src="images/Odette11.jpeg" class="w-100 object-fit-cover rounded who-img slide-from-left delay-1" alt="Who we are">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="d-flex align-items-center gap-3 mb-2">
+                            <span class="who-label small slide-from-left">Who We Are</span>
+                            <span class="line-solid slide-from-left"></span>
+                        </div>
+                        <h2 class="about-title fw-bold fs-2 mb-3 slide-from-left">Welcome to Our Theater! Best Ballet Shows in Snezhnaya.</h2>
+                        <div class="play-wrap mx-auto">
+                            <a href="#popup" class="play-btn about-title slide-from-left delay-1">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="dropcap text-secondary small lh-lg mb-4 slide-from-bottom delay-2">
+                    The Korolevskiy Theater is renowned throughout Snezhnaya. 
+                    Dancers offer dreamlike performances upon the stage, while beyond the curtain lies another world all its own.
+                </p>
+                <a href="DaveHome2.html" class="about-link d-inline-flex align-items-center gap-2 text-decoration-none fw-semibold slide-from-left delay-3">
+                    More About Us &#x2794;
+                </a>
+            </div>
+
+            <!--kartu buking yang di kanan-->
+            <div class="col-lg-5 slide-from-right">
+            <div class="card book-card h-100">
+                <div class="card-body p-4 p-lg-5 text-center d-flex flex-column">
+                    <h4 class="about-title fw-bold mb-4">Book For Activities</h4>
+                    <select class="form-select mb-4" aria-label="Choose Show">
+                        <option selected>Choose Show</option>
+                                        <option>Swan Lake Evening</option>
+                                        <option>Musical Drama</option>
+                                        <option>Sleeping Beauty</option>
+                    </select>
+                    <a href="PerformanceDetails.html" class="btn btn-about w-100 py-2 mt-auto">Start Booking</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!--3 kartu bukinh-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+            <div class="col slide-from-bottom delay-1">
+                <div class="card book-card h-100">
+                    <div class="card-body p-4 p-lg-5 text-center d-flex flex-column">
+                        <h4 class="about-title fw-bold mb-4">Book For Activities</h4>
+                        <select class="form-select mb-4" aria-label="Choose Show">
+                            <option selected>Choose Show</option>
+                                            <option>Swan Lake Evening</option>
+                                            <option>Musical Drama</option>
+                                            <option>Sleeping Beauty</option>
+                        </select>
+                        <a href="PerformanceDetails.html" class="btn btn-about w-100 py-2 mt-auto">Start Booking</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col slide-from-bottom delay-2">
+                <div class="card book-card h-100">
+                    <div class="card-body p-4 p-lg-5 text-center d-flex flex-column">
+                        <h4 class="about-title fw-bold mb-4">Book For Activities</h4>
+                        <select class="form-select mb-4" aria-label="Choose Date">
+                            <option selected>Choose Date</option>
+                                            <option>This Weekend</option>
+                                            <option>Next Week</option>
+                                            <option>Next Month</option>
+                        </select>
+                        <a href="PerformanceDetails.html" class="btn btn-about w-100 py-2 mt-auto">Start Booking</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col slide-from-bottom delay-3">
+                <div class="card book-card h-100">
+                    <div class="card-body p-4 p-lg-5 text-center d-flex flex-column">
+                        <h4 class="about-title fw-bold mb-4">Book For Activities</h4>
+                        <select class="form-select mb-4" aria-label="Choose Seats">
+                            <option selected>Choose Seats</option>
+                                            <option>1 - 2 Seats</option>
+                                            <option>3 - 5 Seats</option>
+                                            <option>6+ Seats</option>
+                        </select>
+                        <a href="PerformanceDetails.html" class="btn btn-about w-100 py-2 mt-auto">Start Booking</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="py-5"><!--bagian place2go-->
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Places To Go</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Our Stages &amp; Venues</h2>
+        </div>
+
+        <div class="row g-3">
+            <!--kiri-->
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-12">
+                    <div class="dest-card dest-tall rounded slide-from-left">
+                        <img src="images/Odette1.jpeg" class="w-100 h-100 object-fit-cover" alt="Grand Theater">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Grand Theater</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="dest-card dest-short rounded slide-from-left">
+                        <img src="images/Jahoda1.png" class="w-100 h-100 object-fit-cover" alt="Studio Hall">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Studio Hall</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="dest-card dest-short rounded slide-from-bottom">
+                        <img src="images/Lumine3.jpeg" class="w-100 h-100 object-fit-cover" alt="Garden Stage">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Garden Stage</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--tengah-->
+            <div class="col-6 col-lg-3">
+                <div class="row g-3">
+                    <div class="col-12">
+                    <div class="dest-card dest-tall rounded slide-from-bottom">
+                        <img src="images/Columbina2.jpeg" class="w-100 h-100 object-fit-cover" alt="Royal Hall">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Royal Hall</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <div class="dest-card dest-short rounded slide-from-bottom delay-1">
+                        <img src="images/Odette22.jpeg" class="w-100 h-100 object-fit-cover" alt="Opera House">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Opera House</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--kanan-->
+            <div class="col-6 col-lg-3">
+                <div class="row g-3">
+                    <div class="col-12">
+                    <div class="dest-card dest-short rounded slide-from-right">
+                        <img src="images/Escoffier5.jpeg" class="w-100 h-100 object-fit-cover" alt="Open Air Stage">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Open Air Stage</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <div class="dest-card dest-tall rounded slide-from-right delay-1">
+                        <img src="images/Odette34.jpeg" class="w-100 h-100 object-fit-cover" alt="Main Stage">
+                        <div class="dest-caption position-absolute bottom-0 start-0 w-100 px-4 pb-3 pt-5">
+                            <h5 class="about-title text-white fw-bold fs-5 mb-0">Main Stage</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5 pt-3">
+            <a href="OurShow.html" class="btn btn-outline-about px-5 py-2">All Venues</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="testi-section py-5"><!--bagian testi drag-->
+    <div class="container py-4">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Testimonial</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title text-white fw-bold display-5">What Are Audience Says?</h2>
+        </div>
+
+        <div id="testiDrag" class="testi-drag d-flex" tabindex="0" role="region" aria-label="Testimoni, geser untuk melihat lainnya">
+                <div class="testi-item">
+                    <div class="testi-card d-flex flex-column flex-sm-row gap-4 p-4 h-100 rounded slide-from-bottom">
+                        <div class="text-center flex-shrink-0">
+                            <img src="images/Escoffier6.jpeg" class="testi-img rounded object-fit-cover" alt="Mariya Soniya" draggable="false">
+                            <div class="testi-stars mt-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                        <div>
+                            <p class="testi-quote text-white-50 mb-3">
+                                &ldquo;Thanks to the theater's bookings, we had an amazing night at the show. The staff made everything easy from start to finish, and we will definitely come back again!&rdquo;
+                            </p>
+                            <h5 class="about-title text-white fw-bold mb-1">Escoffier</h5>
+                            <div class="text-white-50 small">Nov 2026, Swan Lake Evening</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-item">
+                    <div class="testi-card d-flex flex-column flex-sm-row gap-4 p-4 h-100 rounded slide-from-bottom delay-1">
+                        <div class="text-center flex-shrink-0">
+                            <img src="images/Linnea3.jpeg" class="testi-img rounded object-fit-cover" alt="Maydul Islam" draggable="false">
+                            <div class="testi-stars mt-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                        <div>
+                            <p class="testi-quote text-white-50 mb-3">
+                                &ldquo;Thanks to the theater's bookings, we had an amazing night at the show. The staff made everything easy from start to finish, and we will definitely come back again!&rdquo;
+                            </p>
+                            <h5 class="about-title text-white fw-bold mb-1">Linnea</h5>
+                            <div class="text-white-50 small">Nov 2026, Musical Drama</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-item">
+                    <div class="testi-card d-flex flex-column flex-sm-row gap-4 p-4 h-100 rounded">
+                        <div class="text-center flex-shrink-0">
+                            <img src="images/Nahida2.jpeg" class="testi-img rounded object-fit-cover" alt="Lisa J. Franco" draggable="false">
+                            <div class="testi-stars mt-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                        <div>
+                            <p class="testi-quote text-white-50 mb-3">
+                                &ldquo;Thanks to the theater's bookings, we had an amazing night at the show. The staff made everything easy from start to finish, and we will definitely come back again!&rdquo;
+                            </p>
+                            <h5 class="about-title text-white fw-bold mb-1">Nahida</h5>
+                            <div class="text-white-50 small">Oct 2026, Sleeping Beauty</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-item">
+                    <div class="testi-card d-flex flex-column flex-sm-row gap-4 p-4 h-100 rounded">
+                        <div class="text-center flex-shrink-0">
+                            <img src="images/Lumine2.jpeg" class="testi-img rounded object-fit-cover" alt="Rakib Roni" draggable="false">
+                            <div class="testi-stars mt-3">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                        <div>
+                            <p class="testi-quote text-white-50 mb-3">
+                                &ldquo;Thanks to the theater's bookings, we had an amazing night at the show. The staff made everything easy from start to finish, and we will definitely come back again!&rdquo;
+                            </p>
+                            <h5 class="about-title text-white fw-bold mb-1">Lumine</h5>
+                            <div class="text-white-50 small">Oct 2026, Odette's Farewell</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="d-flex justify-content-center gap-2 mt-4">
+            <button type="button" class="testi-dot active" aria-label="Slide 1"></button>
+            <button type="button" class="testi-dot" aria-label="Slide 2"></button>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-light py-5"><!--bagian why chus as-->
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">What We Do</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Why Choose Us</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+            <div class="col">
+                <div class="why-card h-100 slide-from-left">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/OdetteSt1.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">Skilled Performers</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card h-100 slide-from-bottom">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/VodyanitsaSt1.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">Grand Stage</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                The Korolevskiy Theater is renowned throughout Snezhnaya. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card h-100 slide-from-right">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/ColumbinaSt3.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">Super Easy Booking</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                Their devotion is not difficult to understand.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card h-100 slide-from-left delay-1">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/LinneaSt3.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">Premium Seats</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                Dancers offer dreamlike performances upon the stage, while beyond the curtain lies another world all its own.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card h-100 slide-from-bottom delay-1">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/OdetteSt3.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">Backstage Tours</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                Odette Spessiva, prima ballerina of the Korolevskiy Troupe, appears on promotional posters wearing the same composed expression.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card h-100 slide-from-right delay-1">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/VesnaSt1.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">Dance Classes</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                Every step and every lift of her hand carries the precision of a finely cut gemstone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card h-100 slide-from-left delay-1">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/NahidaSt1.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">Live Orchestra</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                As dawn brightens and the rest of the troupe begins to file in, they often pause at the sight of her.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card h-100 slide-from-bottom delay-1">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/JahodaSt3.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">5 Star Service</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                The gems that adorn it glisten with a quiet elegance beneath the stage lights.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card h-100 slide-from-right delay-1">
+                    <div class="why-inner position-relative d-flex gap-3 p-4">
+                        <div class="why-icon d-flex align-items-center justify-content-center flex-shrink-0">
+                            <div class="why-icon-in d-flex align-items-center justify-content-center">
+                                <img src="images/FurinaSt1.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="why-title about-title fw-bold fs-5 mb-1">Event Planning</h5>
+                            <p class="why-text small lh-lg mb-0">
+                                Each movement catching the light with a brilliance that holds the eye.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="detail-section py-5"><!--bagian daftar performance-->
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Book Today</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Performances For All Seasons</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="detail-card card h-100 overflow-hidden slide-from-bottom">
+                    <div class="row g-0 h-100">
+                        <div class="col-sm-5">
+                            <div class="detail-img-wrap position-relative h-100">
+                                <img src="images/Odette32.jpeg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Swan Lake Evening">
+                                <button type="button" class="detail-like position-absolute top-0 start-0 m-2 d-flex align-items-center justify-content-center" aria-label="Suka Swan Lake Evening">
+                                    <img src="images/LinneaSt1.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body d-flex flex-column h-100 p-3">
+                                <div class="d-flex justify-content-between align-items-center small text-uppercase text-secondary">
+                                    <span>Korolevskiy Theater</span>
+                                    <span class="fw-semibold d-flex align-items-center gap-1"><span class="detail-star">&#9733;</span> 4.99/5</span>
+                                </div>
+                                <h5 class="fs-6 fw-bold mt-2 mb-1">Swan Lake Evening</h5>
+                                <p class="text-secondary small mb-3">120 Seats . 2 Hours . 1 Intermission . 1 Stage</p>
+                                <div class="d-flex justify-content-between align-items-center gap-2 mt-auto">
+                                    <div class="detail-harga fw-bold fs-5">$5 / ticket</div>
+                                    <a href="Contact.html" class="btn btn-sm detail-book fw-semibold">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="detail-card card h-100 overflow-hidden slide-from-bottom">
+                    <div class="row g-0 h-100">
+                        <div class="col-sm-5">
+                            <div class="detail-img-wrap position-relative h-100">
+                                <img src="images/Odette36.jpeg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Odette's Farewell">
+                                <button type="button" class="detail-like position-absolute top-0 start-0 m-2 d-flex align-items-center justify-content-center" aria-label="Suka Odette's Farewell">
+                                    <img src="images/LinneaSt1.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body d-flex flex-column h-100 p-3">
+                                <div class="d-flex justify-content-between align-items-center small text-uppercase text-secondary">
+                                    <span>Korolevskiy Theater</span>
+                                    <span class="fw-semibold d-flex align-items-center gap-1"><span class="detail-star">&#9733;</span> 4.99/5</span>
+                                </div>
+                                <h5 class="fs-6 fw-bold mt-2 mb-1">Odette's Farewell</h5>
+                                <p class="text-secondary small mb-3">120 Seats . 2 Hours . 1 Intermission . 1 Stage</p>
+                                <div class="d-flex justify-content-between align-items-center gap-2 mt-auto">
+                                    <div class="detail-harga fw-bold fs-5">$10 / ticket</div>
+                                    <a href="Contact.html" class="btn btn-sm detail-book fw-semibold">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="detail-card card h-100 overflow-hidden slide-from-bottom delay-1">
+                    <div class="row g-0 h-100">
+                        <div class="col-sm-5">
+                            <div class="detail-img-wrap position-relative h-100">
+                                <img src="images/Odette33.jpeg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Snow Queen Gala">
+                                <button type="button" class="detail-like position-absolute top-0 start-0 m-2 d-flex align-items-center justify-content-center" aria-label="Suka Snow Queen Gala">
+                                    <img src="images/LinneaSt1.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body d-flex flex-column h-100 p-3">
+                                <div class="d-flex justify-content-between align-items-center small text-uppercase text-secondary">
+                                    <span>Korolevskiy Theater</span>
+                                    <span class="fw-semibold d-flex align-items-center gap-1"><span class="detail-star">&#9733;</span> 4.99/5</span>
+                                </div>
+                                <h5 class="fs-6 fw-bold mt-2 mb-1">Snow Queen Gala</h5>
+                                <p class="text-secondary small mb-3">120 Seats . 2 Hours . 1 Intermission . 1 Stage</p>
+                                <div class="d-flex justify-content-between align-items-center gap-2 mt-auto">
+                                    <div class="detail-harga fw-bold fs-5">$15 / ticket</div>
+                                    <a href="Contact.html" class="btn btn-sm detail-book fw-semibold">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="detail-card card h-100 overflow-hidden slide-from-bottom delay-1">
+                    <div class="row g-0 h-100">
+                        <div class="col-sm-5">
+                            <div class="detail-img-wrap position-relative h-100">
+                                <img src="images/Odette2.jpeg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Musical Drama">
+                                <button type="button" class="detail-like position-absolute top-0 start-0 m-2 d-flex align-items-center justify-content-center" aria-label="Suka Nutcracker Special">
+                                    <img src="images/LinneaSt1.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body d-flex flex-column h-100 p-3">
+                                <div class="d-flex justify-content-between align-items-center small text-uppercase text-secondary">
+                                    <span>Korolevskiy Theater</span>
+                                    <span class="fw-semibold d-flex align-items-center gap-1"><span class="detail-star">&#9733;</span> 4.99/5</span>
+                                </div>
+                                <h5 class="fs-6 fw-bold mt-2 mb-1">Musical Drama</h5>
+                                <p class="text-secondary small mb-3">120 Seats . 2 Hours . 1 Intermission . 1 Stage</p>
+                                <div class="d-flex justify-content-between align-items-center gap-2 mt-auto">
+                                    <div class="detail-harga fw-bold fs-5">$20 / ticket</div>
+                                    <a href="Contact.html" class="btn btn-sm detail-book fw-semibold">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="detail-card card h-100 overflow-hidden slide-from-bottom delay-2">
+                    <div class="row g-0 h-100">
+                        <div class="col-sm-5">
+                            <div class="detail-img-wrap position-relative h-100">
+                                <img src="images/Odette38.webp" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Sleeping Beauty">
+                                <button type="button" class="detail-like position-absolute top-0 start-0 m-2 d-flex align-items-center justify-content-center" aria-label="Suka Sleeping Beauty">
+                                    <img src="images/LinneaSt1.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body d-flex flex-column h-100 p-3">
+                                <div class="d-flex justify-content-between align-items-center small text-uppercase text-secondary">
+                                    <span>Korolevskiy Theater</span>
+                                    <span class="fw-semibold d-flex align-items-center gap-1"><span class="detail-star">&#9733;</span> 4.99/5</span>
+                                </div>
+                                <h5 class="fs-6 fw-bold mt-2 mb-1">Sleeping Beauty</h5>
+                                <p class="text-secondary small mb-3">120 Seats . 2 Hours . 1 Intermission . 1 Stage</p>
+                                <div class="d-flex justify-content-between align-items-center gap-2 mt-auto">
+                                    <div class="detail-harga fw-bold fs-5">$25 / ticket</div>
+                                    <a href="Contact.html" class="btn btn-sm detail-book fw-semibold">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="detail-card card h-100 overflow-hidden slide-from-bottom delay-2">
+                    <div class="row g-0 h-100">
+                        <div class="col-sm-5">
+                            <div class="detail-img-wrap position-relative h-100">
+                                <img src="images/Odette34.jpeg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="The Royal Ballet Night">
+                                <button type="button" class="detail-like position-absolute top-0 start-0 m-2 d-flex align-items-center justify-content-center" aria-label="Suka The Royal Ballet Night">
+                                    <img src="images/LinneaSt1.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body d-flex flex-column h-100 p-3">
+                                <div class="d-flex justify-content-between align-items-center small text-uppercase text-secondary">
+                                    <span>Korolevskiy Theater</span>
+                                    <span class="fw-semibold d-flex align-items-center gap-1"><span class="detail-star">&#9733;</span> 4.99/5</span>
+                                </div>
+                                <h5 class="fs-6 fw-bold mt-2 mb-1">The Royal Ballet Night</h5>
+                                <p class="text-secondary small mb-3">120 Seats . 2 Hours . 1 Intermission . 1 Stage</p>
+                                <div class="d-flex justify-content-between align-items-center gap-2 mt-auto">
+                                    <div class="detail-harga fw-bold fs-5">$7 / ticket</div>
+                                    <a href="Contact.html" class="btn btn-sm detail-book fw-semibold">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="galeri-section py-5"><!--bagian galeri-->
+    <div class="container py-3">
+        <div class="mb-5">
+            <div class="d-flex align-items-center gap-3 mb-2">
+                <span class="galeri-label small">Latest Model</span>
+                <span class="line-solid"></span>
+            </div>
+            <h2 class="about-title text-white fw-bold fs-2 galeri-judul">Explore the beauty of our star.</h2>
+        </div>
+
+        <div class="row g-3 slide-from-left">
+            <div class="col-md-6">
+                <button type="button" class="galeri-thumb galeri-lg w-100 p-0 border-0 rounded overflow-hidden"
+                        data-grup="atas" data-bs-toggle="modal" data-bs-target="#modalGaleri" aria-label="Buka gambar: Backstage Preparation">
+                    <img src="images/Odette1.jpeg" class="w-100 h-100 object-fit-cover" alt="Backstage Preparation" draggable="false">
+                </button>
+            </div>
+            <div class="col-md-6 slide-from-right delay-1">
+                <button type="button" class="galeri-thumb galeri-lg w-100 p-0 border-0 rounded overflow-hidden"
+                        data-grup="atas" data-bs-toggle="modal" data-bs-target="#modalGaleri" aria-label="Buka gambar: Rehearsal on Stage">
+                    <img src="images/Odette5.jpeg" class="w-100 h-100 object-fit-cover" alt="Rehearsal on Stage" draggable="false">
+                </button>
+            </div>
+            <div class="col-md-4 slide-from-bottom">
+                <button type="button" class="galeri-thumb galeri-md w-100 p-0 border-0 rounded overflow-hidden"
+                        data-grup="bawah" data-bs-toggle="modal" data-bs-target="#modalGaleri" aria-label="Buka gambar: Opening Night">
+                    <img src="images/Odette38.webp" class="w-100 h-100 object-fit-cover" alt="Opening Night" draggable="false">
+                </button>
+            </div>
+            <div class="col-md-4 slide-from-bottom delay-1">
+                <button type="button" class="galeri-thumb galeri-md w-100 p-0 border-0 rounded overflow-hidden"
+                        data-grup="bawah" data-bs-toggle="modal" data-bs-target="#modalGaleri" aria-label="Buka gambar: Behind the Curtain">
+                    <img src="images/Vodyanitsa3.jpeg" class="w-100 h-100 object-fit-cover" alt="Behind the Curtain" draggable="false">
+                </button>
+            </div>
+            <div class="col-md-4 slide-from-bottom delay-2">
+                <button type="button" class="galeri-thumb galeri-md w-100 p-0 border-0 rounded overflow-hidden"
+                        data-grup="bawah" data-bs-toggle="modal" data-bs-target="#modalGaleri" aria-label="Buka gambar: Curtain Call">
+                    <img src="images/Columbina1.jpeg" class="w-100 h-100 object-fit-cover" alt="Curtain Call" draggable="false">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="py-5"><!--bagian team-->
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Our Team</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Meet Our Excellent Guides</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+            <div class="col">
+                <div class="card team-card border-0 slide-from-right">
+                    <div class="team-img-wrap position-relative">
+                        <img src="images/Columbina1.jpeg" class="card-img-top w-100 object-fit-cover" alt="Columbina Hyposelenia">
+                        <a href="#" class="team-share position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center" aria-label="Share Columbina Hyposelenia">
+                            <img src="images/LinneaSt1.png">
+                        </a>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="team-name fs-5 mb-1">Columbina Hyposelenia</h5>
+                        <p class="team-role small fw-semibold mb-0">Director</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card team-card border-0 slide-from-right delay-1">
+                    <div class="team-img-wrap position-relative">
+                        <img src="images/Lumine1.jpeg" class="card-img-top w-100 object-fit-cover" alt="Lumine">
+                        <a href="#" class="team-share position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center" aria-label="Share Lumine">
+                            <img src="images/LinneaSt1.png">
+                        </a>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="team-name fs-5 mb-1">Lumine</h5>
+                        <p class="team-role small fw-semibold mb-0">Choreographer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card team-card border-0 slide-from-right delay-2">
+                    <div class="team-img-wrap position-relative">
+                        <img src="images/Odette15.jpeg" class="card-img-top w-100 object-fit-cover" alt="Odette Spessiva">
+                        <a href="#" class="team-share position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center" aria-label="Share Odette Spessiva">
+                            <img src="images/LinneaSt1.png">
+                        </a>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="team-name fs-5 mb-1">Odette Spessiva</h5>
+                        <p class="team-role small fw-semibold mb-0">Lead Dancer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card team-card border-0 slide-from-right delay-3">
+                    <div class="team-img-wrap position-relative">
+                        <img src="images/Vodyanitsa2.jpeg" class="card-img-top w-100 object-fit-cover" alt="Vodyanitsa">
+                        <a href="#" class="team-share position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center" aria-label="Share Vodyanitsa">
+                            <img src="images/LinneaSt1.png">
+                        </a>
+                    </div>
+                    <div class="card-body px-4 py-3">
+                        <h5 class="team-name fs-5 mb-1">Vodyanitsa</h5>
+                        <p class="team-role small fw-semibold mb-0">Stage Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="price-section py-5"><!--bagian paket-->
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                <span class="line-dash"></span>
+                <span class="line-solid"></span>
+                <span class="font-script about-label">Pricing Plan</span>
+                <span class="line-solid"></span>
+                <span class="line-dash"></span>
+            </div>
+            <h2 class="about-title fw-bold display-5">Choose Your Pricing Plan</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="price-card h-100 slide-from-left delay-2">
+                    <div class="price-inner position-relative p-4 p-lg-5">
+                        <h4 class="price-title about-title fw-bold mb-4">Basic Package</h4>
+                        <div class="d-flex align-items-baseline gap-2">
+                            <span class="price-cur fw-bold">$</span>
+                            <span class="price-num">10</span>
+                            <span class="price-per">/ Ticket</span>
+                        </div>
+                        <hr class="price-line my-4 opacity-100">
+                        <ul class="list-unstyled mb-4">
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Free welcome drink</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Free souvenir program</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Priority seating</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2 price-off">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">All performance</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2 price-off">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Backstage meet &amp; greet</span>
+                            </li>
+                        </ul>
+                        <a href="DaveHome2.html" class="btn btn-price w-100 py-3">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="price-card h-100 slide-from-left delay-1">
+                    <div class="price-inner position-relative p-4 p-lg-5">
+                        <h4 class="price-title about-title fw-bold mb-4">Regular Package</h4>
+                        <div class="d-flex align-items-baseline gap-2">
+                            <span class="price-cur fw-bold">$</span>
+                            <span class="price-num">18</span>
+                            <span class="price-per">/ Ticket</span>
+                        </div>
+                        <hr class="price-line my-4 opacity-100">
+                        <ul class="list-unstyled mb-4">
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Free welcome drink</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Free souvenir program</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Priority seating</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">All performance</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2 price-off">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Backstage meet &amp; greet</span>
+                            </li>
+                        </ul>
+                        <a href="DaveHome2.html" class="btn btn-price w-100 py-3">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="price-card h-100 slide-from-left">
+                    <div class="price-inner position-relative p-4 p-lg-5">
+                        <h4 class="price-title about-title fw-bold mb-4">True Fan Package</h4>
+                        <div class="d-flex align-items-baseline gap-2">
+                            <span class="price-cur fw-bold">$</span>
+                            <span class="price-num">25</span>
+                            <span class="price-per">/ Ticket</span>
+                        </div>
+                        <hr class="price-line my-4 opacity-100">
+                        <ul class="list-unstyled mb-4">
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Free welcome drink</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Free souvenir program</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Priority seating</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">All performance</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-2">
+                                <span class="price-arrow">&#x2794;</span>
+                                <span class="price-txt">Backstage meet &amp; greet</span>
+                            </li>
+                        </ul>
+                        <a href="DaveHome2.html" class="btn btn-price w-100 py-3">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="py-5"><!--bagian berita geser-->
+    <div class="container">
+        <div class="mb-5">
+            <div class="d-flex justify-content-left align-items-center gap-2 mb-2">
+                <span class="font-script about-label fs-5">Latest Blog</span>
+                <span class="line-solid"></span>
+            </div>
+            <h2 class="about-title fw-bold display-7">Recent blog &amp; articles</h2>
+        </div>
+        <div id="newsSlider" class="news-slider overflow-hidden slide-from-left delay-1">
+            <div id="newsTrack" class="news-track d-flex">
+            <div class="news-item">
+                <div class="card news-card h-100">
+                    <img src="images/Odette13.jpeg" class="card-img-top w-100 object-fit-cover" alt="Royal Hall announces new ticket tax for the season">
+                    <div class="card-body p-4">
+                        <a href="#" class="news-brand d-inline-block text-decoration-none mb-3">Dave Website</a>
+                        <h5 class="mb-4">
+                            <a href="#" class="news-title about-title fw-bold text-decoration-none">Royal Hall announces new ticket tax for the season</a>
+                        </h5>
+                        <a href="#" class="news-more d-inline-flex align-items-center gap-2 text-decoration-none">Read More&rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="card news-card h-100">
+                    <img src="images/Columbina2.jpeg" class="card-img-top w-100 object-fit-cover" alt="Grand show set to join the theater stage lineup">
+                    <div class="card-body p-4">
+                        <a href="#" class="news-brand d-inline-block text-decoration-none mb-3">Dave Website</a>
+                        <h5 class="mb-4">
+                            <a href="#" class="news-title about-title fw-bold text-decoration-none">Grand show set to join the theater stage lineup</a>
+                        </h5>
+                        <a href="#" class="news-more d-inline-flex align-items-center gap-2 text-decoration-none">Read More&rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="card news-card h-100">
+                    <img src="images/Vodyanitsa2.jpeg" class="card-img-top w-100 object-fit-cover" alt="Explorer theater unveils exciting itinerary for the new year">
+                    <div class="card-body p-4">
+                        <a href="#" class="news-brand d-inline-block text-decoration-none mb-3">Dave Website</a>
+                        <h5 class="mb-4">
+                            <a href="#" class="news-title about-title fw-bold text-decoration-none">Explorer theater unveils exciting itinerary for the new year</a>
+                        </h5>
+                        <a href="#" class="news-more d-inline-flex align-items-center gap-2 text-decoration-none">Read More&rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="card news-card h-100">
+                    <img src="images/Odette16.jfif" class="card-img-top w-100 object-fit-cover" alt="Behind the curtain: how a ballet show comes to life">
+                    <div class="card-body p-4">
+                        <a href="#" class="news-brand d-inline-block text-decoration-none mb-3">Dave Website</a>
+                        <h5 class="mb-4">
+                            <a href="#" class="news-title about-title fw-bold text-decoration-none">Behind the curtain: how a ballet show comes to life</a>
+                        </h5>
+                        <a href="#" class="news-more d-inline-flex align-items-center gap-2 text-decoration-none">Read More&rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="card news-card h-100">
+                    <img src="images/Odette26.jpeg" class="card-img-top w-100 object-fit-cover" alt="Opera House opens a new studio for young dancers">
+                    <div class="card-body p-4">
+                        <a href="#" class="news-brand d-inline-block text-decoration-none mb-3">Dave Website</a>
+                        <h5 class="mb-4">
+                            <a href="#" class="news-title about-title fw-bold text-decoration-none">Opera House opens a new studio for young dancers</a>
+                        </h5>
+                        <a href="#" class="news-more d-inline-flex align-items-center gap-2 text-decoration-none">Read More&rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="card news-card h-100">
+                    <img src="images/Odette27.jpeg" class="card-img-top w-100 object-fit-cover" alt="Open air stage returns with a special summer program">
+                    <div class="card-body p-4">
+                        <a href="#" class="news-brand d-inline-block text-decoration-none mb-3">Dave Website</a>
+                        <h5 class="mb-4">
+                            <a href="#" class="news-title about-title fw-bold text-decoration-none">Open air stage returns with a special summer program</a>
+                        </h5>
+                        <a href="#" class="news-more d-inline-flex align-items-center gap-2 text-decoration-none">Read More&rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="card news-card h-100">
+                    <img src="images/Jahoda1.png" class="card-img-top w-100 object-fit-cover" alt="Choreographers share their favorite classic performances">
+                    <div class="card-body p-4">
+                        <a href="#" class="news-brand d-inline-block text-decoration-none mb-3">Dave Website</a>
+                        <h5 class="mb-4">
+                            <a href="#" class="news-title about-title fw-bold text-decoration-none">Choreographers share their favorite classic performances</a>
+                        </h5>
+                        <a href="#" class="news-more d-inline-flex align-items-center gap-2 text-decoration-none">Read More&rarr;</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer-section text-white pt-5"><!--bagian futer-->
+    <div class="container">
+        <div class="row g-5 pb-5">
+            <div class="col-md-6 col-lg-3">
+                <a href="DaveWebsite.html">
+                    <img src="images/OdetteSt4.png" alt="Logo" height="85" class="mb-3">
+                </a>
+                <p class="text-white-50">
+                    Dave Website, dibuat untuk proyek ujian akhir semester mata kuliah Pemrograman Antarmuka Pengguna.
+                </p>
+                <div class="d-flex gap-2 mt-4">
+                    <a href="https://www.facebook.com/share/1CNj1k6yVW/" class="social-circle" aria-label="Facebook">
+                        <img src="images/facebook.svg" width="20" alt="Facebook">
+                    </a>
+                    <a href="https://pin.it/5jrilwgu8" class="social-circle" aria-label="Pinterest">
+                        <img src="images/pinterest.svg" width="20" alt="Pinterest">
+                    </a>
+                    <a href="https://www.instagram.com/dddavejoseph?bqrl=MW54N2h1cTBpM3B1bQ==" class="social-circle" aria-label="Instagram">
+                        <img src="images/instagram.svg" width="20" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-circle" aria-label="LinkedIn">
+                        <img src="images/linkedin.png" width="20" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h4 class="footer-title mb-4">Quicklinks</h4>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li>
+                        <a href="DaveWebsite.html" class="footer-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="OurShow.html" class="footer-link">Show Tickets</a>
+                    </li>
+                    <li>
+                        <a href="PopularPerformance.html" class="footer-link">Performance</a>
+                    </li>
+                    <li>
+                        <a href="#sliderHome2" class="footer-link">Pages</a>
+                    </li>
+                    <li>
+                        <a href="Blog.html" class="footer-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html" class="footer-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h4 class="footer-title mb-4">Get In Touch</h4>
+
+                <div class="d-flex gap-3 mb-3">
+                    <div class="icon-footer">
+                        <img src="images/location2.png">
+                    </div>
+                    <div>
+                        <strong>Location:</strong>
+                        <div class="text-white-50">Letjen S. Parman St No 1, Tomang, Grogol Petamburan, West Jakarta City, Jakarta</div>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-3 mb-3">
+                    <div class="icon-footer">
+                        <img src="images/email.png">
+                    </div>
+                    <div>
+                        <strong>Email:</strong>
+                        <div class="text-white-50">dave.825250150@stu.untar.ac.id</div>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-3">
+                    <div class="icon-footer">
+                        <img src="images/phone.png">
+                    </div>
+                    <div>
+                        <strong>Phone:</strong>
+                        <div class="text-white-50">+62 812 3456 7890</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3"><!--galeri-->
+                <h4 class="footer-title mb-4">Gallery</h4>
+                <div class="row g-2">
+                    <div class="col-6">
+                        <img src="images/Odette16.jfif" class="img-fluid rounded gallery-img" alt="Callery 1">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/Odette18.jpeg" class="img-fluid rounded gallery-img" alt="Callery 2">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/Odette19.jpeg" class="img-fluid rounded gallery-img" alt="Callery 3">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/Odette21.jpeg" class="img-fluid rounded gallery-img" alt="Callery 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="border-secondary opacity-50 m-0">
+            <p class="text-center py-4 mb-0">
+                Dave Website &copy;2026. All Rights Reserved.
+            </p>
+    </div>
+</footer>
+
+<div class="scrollAtasBawah"><!--tombol scroll-->
+    <button id="tombolAtas" class="tombol-scroll" title="Ke Atas">&#9650;</button>
+</div>
+    <button type="button" class="tombol-chat" title="Chat" aria-label="Buka chat" data-bs-toggle="modal" data-bs-target="#modalChat"><!--tombol chat-->
+        <img src="images/chaticon.png" width="20" height="20">
+    </button>
+    <div class="modal fade" id="modalChat" tabindex="-1" aria-labelledby="judulModalChat" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-6" id="judulModalChat">Silahkan berikan pesan disini!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formChat" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="chatNama" class="form-label small">Nama</label>
+                            <input type="text" class="form-control" id="chatNama" placeholder="Masukkan nama Anda" required>
+                            <div class="invalid-feedback">Nama wajib diisi.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="chatEmail" class="form-label small">Email</label>
+                            <input type="email" class="form-control" id="chatEmail" placeholder="nama@exampel.com" required>
+                            <div class="invalid-feedback">Masukkan email yang valid.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="chatPesan" class="form-label small">Isi Pesan</label>
+                            <textarea class="form-control" id="chatPesan" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                            <div class="invalid-feedback">Pesan wajib diisi.</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="submit" form="formChat" class="btn btn-primary">kirim pesan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3">
+        <div id="toastChat" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">Pesan Anda berhasil dikirim. Terima kasih!</div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Tutup"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup"><!--popup video-->
+        <div class="popup-box">
+            <div class="popup-header">
+                <div class="popup-title">Odette - Template by azmihdzar</div>
+                <a class="close-popup" href="#!">x</a>
+            </div>
+            <div class="popup-video">
+                <video controls>
+                    <source src="videos/Odette edit - Template by azmihdzar.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade galeri-modal" id="modalGaleri" tabindex="-1" aria-label="Galeri gambar" aria-hidden="true"><!--popup galeri-->
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="d-flex justify-content-between align-items-center px-4 py-3">
+                    <span id="galeriCounter" class="text-white">1 / 1</span>
+                    <div class="d-flex align-items-center gap-2">
+                        <!--layar penuh-->
+                        <button type="button" id="galeriFull" class="galeri-btn" aria-label="Layar penuh">
+                            <img src="images/NahidaSt1.png">
+                        </button>
+                        <!--zoom in / zoom out-->
+                        <button type="button" id="galeriZoom" class="galeri-btn" aria-label="Zoom">
+                            <img src="images/LinneaSt1.png">
+                        </button>
+                        <!--sher-->
+                        <div class="dropdown">
+                            <button type="button" class="galeri-btn" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Bagikan">
+                                <img src="images/share2.png">
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" id="galeriDownload" href="#" download>Download image</a></li>
+                            </ul>
+                        </div>
+                        <!--tutup-->
+                        <button type="button" class="galeri-btn" data-bs-dismiss="modal" aria-label="Tutup">X</button>
+                    </div>
+                </div>
+
+                <div id="galeriCarousel" class="carousel slide flex-grow-1 d-flex align-items-center" data-bs-interval="false">
+                    <div id="galeriInner" class="carousel-inner"></div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#galeriCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#galeriCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+    <script src="chat.js"></script>
+    <script src="news-slider.js"></script>
+    <script src="testi-drag.js"></script>
+    <script src="galeri.js"></script>
+</body>
+</html>
